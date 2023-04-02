@@ -155,8 +155,9 @@ int main() {
             }
         }
         if (board[row][col] != '.') {
+            
             cout <<"\n"<< "Invalid move! Try again. \n" << endl;
-            //printBoard(n,board);
+       
             continue;
         }
 
